@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.text-primary{
+    align-items: center;
+}
+/* header and navigation styles */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1600px;
+    width: 1440px;
+    
+    left: 0px;
+    top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+.nav-title{
+   font-weight: 700;
+   font-size: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.brand{
+    position: absolute;
+width: 862px;
+height: 225px;
+left: 529px;
+top: 205px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+}
+.brand-new{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.para-item{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    word-wrap: none;
+}
+.btn-primary{
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 463px;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+}
+.photo{
+position: absolute;
+width: 1440px;
+height: 700px;
+left: 240px;
+right: 240px;
+top: 577px;
+
+border-radius: 8px;
+
+}
+.section-1{
+    height: 700px;
+    
+}
+/* four team */
+.teams{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.team-1{
+width: 342px;
+height: 342px;
+left: 301px;
+top: 1407px;
+border-radius: 8px;
+}
+.team-2{
+width: 342px;
+height: 342px;
+left: 667px;
+top: 1407px;
+border-radius: 8px;
+}
+.team-3{
+
+width: 342px;
+height: 342px;
+left: 667px;
+top: 1407px;
+
+border-radius: 8px;
+}
+.team-4{
+width: 342px;
+height: 342px;
+left: 667px;
+top: 1773px;
+border-radius: 8px;
+}
+.button-primary{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+.text{
+    
+    margin: auto;
+    width: 537px;
+    height: 304px;
+    left: 1082px;
+    top: 1609px;
+}
+ .four-team{ 
+    display: flex
+    
+}
+.section-2{
+    display: flex;
+
+}
+.section-3{
+    display: flex;
+}
+.features{
+
+width: 598px;
+height: 982px;
+left: 262px;
+top: 2245px;
+
+}
+.architects{
+
+width: 800px;
+height: 1059px;
+left: 880px;
+top: 2245px;
+
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.facts{
+text-align: center;
+align-items: center;
+justify-content: center;
+width: 258px;
+height: 53px;
+left: 240px;
+top: 3434px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.paragraph{
+
+width: 542px;
+height: 52px;
+left: 240px;
+top: 3540px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.ribon{
+background-color: aliceblue;
+width: 169px;
+height: 136.22px;
+left: 326px;
+top: 3709px;
+
+}
+.projects{
+background-color: aliceblue;
+width: 169px;
+height: 136.22px;
+left: 326px;
+top: 3709px;
+
+}
+.customers{
+background-color: aliceblue;
+width: 169px;
+height: 136.22px;
+left: 326px;
+top: 3709px;
+
+}
+.email{
+ background-color: aliceblue;   
+width: 169px;
+height: 136.22px;
+left: 326px;
+top: 3709px;
+
+}
+.spon{
+text-align: center;
+align-items: center;
+width: 327px;
+height: 53px;
+left: 797px;
+top: 4085px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+.para-2{
+text-align: center;
+width: 542px;
+height: 52px;
+left: 689px;
+top: 4162px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.spotify{
+
+width: 166.76px;
+height: 50px;
+left: 240px;
+top: 4264px;
+
+mix-blend-mode: luminosity;
+}
+.amazon{
+    
+left: 1.97%;
+right: 1.81%;
+top: 1.56%;
+bottom: 41.59%;
+
+background: none;
+
+}
+.google{
+    
+width: 153.33px;
+height: 50px;
+left: 883px;
+top: 4264px;
+
+mix-blend-mode: luminosity;
+}
+.telerama{
+   
+width: 152.51px;
+height: 50px;
+left: 1191px;
+top: 4264px;
+
+mix-blend-mode: luminosity;
+}
+.figma{
+    
+width: 181.67px;
+height: 50px;
+left: 1498px;
+top: 4264px;
+
+mix-blend-mode: luminosity;
+
+}
+.last-para{
+    text-align: center;
+   background-color: antiquewhite;
+width: 1440px;
+height: 50px;
+left: 240px;
+top: 4444px;
+
+}
+
+/* media query */
+@media only screen and (max-width:687px) {
+    body{
+       
+        width: 100%;
+        
+    }
+    .headers{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .nav-title{ 
+        flex-direction: column;
+    }
+}
